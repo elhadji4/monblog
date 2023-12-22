@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>MyWorld </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        
+       
+    <div class="container-header">
+        <div class="logo">
+          <img src="images/Hadjı’s world.png" alt="Logo">
+        
+        </div>
+        
+        <nav>
+          <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">À Propos</a></li>
+            <li><a href="#community-section">Ma Communauté</a></li>
+            <li><a href="#articles-section">Articles</a></li>
+            <li><a href="#formations-section">Nos formations</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="right-contents">
+            <div class="search">
+                <input type="text" placeholder="Rechercher...">
+              </div>
+              <div class="lang">
+                <select>
+                  <option value="fr">FR</option>
+                  <option value="en">EN</option>
+                  <option value="es">ES</option>
+                </select>
+              </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="left">              
+                <img class="photo-profile" src="images/haci--- (1).jpg" alt="Photo de profil" height="285" width="250">
+              
+              <div class="ma-description">
+                <span id="ConnaissezMoi">Connaissez Moi</span><br>
+               
+                <p>Bonjour à tous !
+
+                Je suis Nahim HADJI BIN MASUDI, un passionné de l'univers digital âgé de 27 ans. Actuellement étudiant à l'école HETIC, je me spécialise en Prepa Master Digital avec une orientation particulière vers la technologie de l'analyse de données.
+                
+                Mon parcours académique et ma passion pour les nouvelles technologies m'ont conduit à explorer le monde fascinant de la data analyse. J'aime explorer les données, décrypter les tendances cachées et tirer des insights significatifs pour résoudre des problèmes et créer des solutions innovantes.
+
+               </p> 
+              
+               <p>
+                 Mon objectif est d'acquérir des compétences approfondies dans ce domaine en constante évolution, car je crois fermement que le pouvoir des données combiné à la technologie peut façonner un avenir plus intelligent et plus efficace.
+                
+                Rejoignez-moi dans mon voyage au cœur du numérique où je partage mes expériences, mes découvertes et mes réflexions sur ce domaine en perpétuelle mutation.
+                
+                À bientôt pour de nouvelles aventures digitales !   <button class="read-more-button">Lire la suite</button>
+               </p>
+               
+              </div>
+             </div>
+            <div class="right">
+              <h2>Articles Publiés</h2>
+              <ol>
+                <li>
+                  <h3>"L'Impact des Réseaux Sociaux sur la Jeunesse Moderne"</h3>
+                  <p>- Publié dans Journal de Sociologie en septembre 2023</p>
+                </li>
+                <li>
+                   <h3>"Introduction à l'Analyse de Données "</h3> 
+                   <p> les concepts fondamentaux de l'analyse de données, les types de données, les méthodes couramment utilisées, et comment appliquées dans le monde réel.</p>
+                </li>
+                <li>
+                    <h3>"Les Tendances Émergentes dans la Technologie  "</h3> 
+                    <p> Passer en revue les dernières tendances technologiques, comme l'intelligence artificielle, l'Internet des objets (IoT), la blockchain, et discuter de leur impact sur la société et les entreprises.</p>
+                 </li>
+              </ol>
+              <div class="buttons-section">
+                <button id="add-article-button">Ajouter un article</button>
+                <button class="publish-button">Publier</button>
+              </div>
+
+              
+
+            <div class="popup-form" id="popup-form">
+            <form id="article-form">
+                <label for="article-title">Titre de l'article:</label><br>
+                <input type="text" id="article-title" name="article-title" required><br><br>
+
+                <label for="article-date">Date:</label><br>
+                <input type="date" id="article-date" name="article-date" required><br><br>
+
+                <label for="article-time">Heure:</label><br>
+                <input type="time" id="article-time" name="article-time" required><br><br>
+
+                <label for="article-author">Nom du publiant:</label><br>
+                <input type="text" id="article-author" name="article-author" required><br><br>
+
+                <label for="article-comment">Commentaire:</label><br>
+                <textarea id="article-comment" name="article-comment" rows="4" cols="50" placeholder="Ajouter un commentaire"></textarea><br><br>
+
+                <input class="publish-button" type="submit" value="Ajouter">
+            </form>
+            </div>
+
+              
+
+            </div>
+          </div>
+         <!-- les sections -->
+        
+        <a href="lien-de-votre-choix" class="community-link"> 
+            <section id="images-gif-section">
+                <div class="animated-image">
+                    <iframe src="https://giphy.com/embed/7VzgMsB6FLCilwS30v" width="100%" height="250" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/visuals-network-connectivity-7VzgMsB6FLCilwS30v"></a></p>
+                  </div>
+              </section>
+            </a>
+
+
+        <a href="lien-de-votre-choix" class="community-link"> 
+        <section id="community-section">
+            <h2>Ma Communauté</h2>
+            <p>Bienvenue dans ma communauté ! C'est un espace où nous pouvons partager nos idées, échanger des connaissances et discuter des dernières tendances dans le domaine du digital.</p>
+            
+            <button class="join-button">Nous Rejoindre</button>
+          </section>
+        </a>
+
+        
+
+        <a href="lien-de-votre-choix" class="community-link">
+          <section id="formations-section">
+            <h2>Nos Formations</h2>
+            <div id="formation-item">
+              <h3>Formation en Data Science</h3>
+              <p>Cette formation complète vous enseigne les fondamentaux et les applications pratiques de la Data Science.</p>
+            </div>
+            <div id="formation-item">
+              <h3>Formation en Intelligence Artificielle</h3>
+              <p>Découvrez les concepts clés de l'IA et apprenez à créer des systèmes intelligents.</p>
+            </div>
+            <div><a href="#">Decouvrir Mon CV en ligne</a></div>
+           
+          </section>
+        </a>
+       
+        <a href="lien-de-votre-choix" class="community-link">
+          <section id="articles-section">
+            <h2>Articles</h2>
+            <div class="article-item">
+              <h3>Titre de l'article 1</h3>
+              <p>Description de l'article 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <a href="#">Lire l'article</a>
+            </div>
+            <div id="article-item">
+              <h3>Titre de l'article 2</h3>
+              <p>Description de l'article 2. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <a href="#">Lire l'article</a>
+            </div>
+           
+          </section>
+        </a>
+
+      
+        
+        <a href="lien-de-votre-choix" class="community-link">
+          <section id="intelligence-game-section">
+            <h2>Jeu d'Intelligence</h2>
+            <p>Testez vos compétences avec notre jeu d'intelligence interactif !</p>
+            <div class="game-container">
+             
+            </div>
+          </section>
+        </a>
+
+        <section class="about-us-section">
+            <h2>À Propos de Nous</h2>
+            <p>Nous sommes une équipe passionnée dédiée à partager nos connaissances et à explorer les tendances passionnantes du monde digital.</p>
+          
+          </section>
+    </main>
+
+    <footer>
+        <p class="copyright">&copy; 2023 Univers Hadji. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
